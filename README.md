@@ -93,7 +93,7 @@ poetry shell
 Com o ambiente configurado, você pode executar o pipeline utilizando o script principal `main.py`. Este script orquestra todas as etapas do processo:
 
 ```bash
-python src/main.py
+poetry run python -m src.main
 ```
 
 ## Testes

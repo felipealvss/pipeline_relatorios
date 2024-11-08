@@ -7,10 +7,10 @@ import time
 def extrai_imagem_relatorio(assunto, nome_arquivo_excel, caminho_arquivo_excel, nome_arquivo_imagem, caminho_arquivo_imagem, log_file, intervalo, aba):
 
     # Configurações de Excel
-    arquivo_excel = os.path.join(nome_arquivo_excel, caminho_arquivo_excel)
+    arquivo_excel = os.path.join(caminho_arquivo_excel, nome_arquivo_excel)
 
     # Configurações de Imagem
-    arquivo_imagem = os.path.join(nome_arquivo_imagem, caminho_arquivo_imagem)
+    arquivo_imagem = os.path.join(caminho_arquivo_imagem, nome_arquivo_imagem)
 
     # Configuração do log
     logging.basicConfig(filename=log_file, level=logging.INFO, 
@@ -44,10 +44,8 @@ def extrai_imagem_relatorio(assunto, nome_arquivo_excel, caminho_arquivo_excel, 
         # Salvar a imagem
         img.save(arquivo_imagem, 'PNG')  # Salva como PNG (ou JPG, se preferir)
         log_event(f"{assunto} Imagem exportada com sucesso para: {arquivo_imagem}")
-        print(f"{assunto} Imagem exportada com sucesso para: {arquivo_imagem}")
     else:
         log_event(f"{assunto} Erro: Nenhuma imagem encontrada na área de transferência.")
-        print(f"{assunto} Erro: Nenhuma imagem encontrada na área de transferência.")
 
     # Fechar o Excel
     wb.close()

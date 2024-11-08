@@ -17,6 +17,9 @@ env/
 .venv/
 .env/
 
+# Arquivos e configurações de teste
+tests/
+
 # Arquivos de configuração de IDE
 .vscode/
 .idea/
@@ -37,3 +40,8 @@ dump/
 # Arquivos Excel gerados ou temporários
 *.xls
 *.xlsx
+
+# Arquivos de imagem gerados ou temporários
+*.png
+*.jpg
+*.jpeg

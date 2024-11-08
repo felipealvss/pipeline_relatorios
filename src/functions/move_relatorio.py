@@ -19,7 +19,7 @@ def move_relatorio(assunto, name_excel_file, origin_excel_file, dest_dir, log_fi
 
     # Verifica se o arquivo de origem existe
     if not os.path.exists(excel_file):
-        print(f"{assunto} Erro: O arquivo {name_excel_file} não foi encontrado.")
+        log_event(f"{assunto} Erro: O arquivo {name_excel_file} não foi encontrado.")
         return
     
     # Verifica se o diretório de destino existe, se não, cria
@@ -30,10 +30,10 @@ def move_relatorio(assunto, name_excel_file, origin_excel_file, dest_dir, log_fi
     arq_name, arq_ext = os.path.splitext(name_excel_file)
 
     # Define o nome do arquivo com data HOJE no fim do arquivo, padrão YYYYMMDD
-    new_filename = f"{arq_name}_{datetime.now().strftime('%Y%m%d')}.{arq_ext}"
+    new_filename = f"{arq_name}_{datetime.now().strftime('%Y%m%d')}{arq_ext}"
 
     new_file_path = os.path.join(dest_dir, new_filename)
 
     # Copia o arquivo para o diretório de destino
     shutil.copy(excel_file, new_file_path)
-    print(f"{assunto} Arquivo movido e renomeado para: {new_file_path}")
+    log_event(f"{assunto} Arquivo movido e renomeado para: {new_file_path}")

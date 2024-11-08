@@ -1,0 +1,220 @@
+2024-11-08 14:33:54 - Ambiente: TEST - Arquivo log definido: C:\FELIPE\py_testes\pipeline_relatorios\logs\log_atualizacao.txt
+2024-11-08 14:33:54 - Iniciando o processo de atualização de relatório.
+2024-11-08 14:33:54 - GA_PEND Iniciando atualização...
+2024-11-08 14:33:55 - GA_PEND Excel inicializado com sucesso.
+2024-11-08 14:33:55 - GA_PEND Erro ao abrir o arquivo: (-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'Não foi possível encontrar C:\\FELIPE\\py_testes\\pipeline_relatorios\\data\\start. É possível que ele tenha sido movido, renomeado ou excluído?', 'xlmain11.chm', 0, -2146827284), None)
+2024-11-08 14:37:57 - Ambiente: TEST - Arquivo log definido: C:/FELIPE/py_testes/pipeline_relatorios/logs\log_atualizacao.txt
+2024-11-08 14:37:57 - Iniciando o processo de atualização de relatório.
+2024-11-08 14:37:57 - GA_PEND Iniciando atualização...
+2024-11-08 14:37:57 - GA_PEND Excel inicializado com sucesso.
+2024-11-08 14:37:58 - GA_PEND Erro ao abrir o arquivo: (-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'Não foi possível encontrar C:\\FELIPE\\py_testes\\pipeline_relatorios\\data\\start. É possível que ele tenha sido movido, renomeado ou excluído?', 'xlmain11.chm', 0, -2146827284), None)
+2024-11-08 14:38:45 - Ambiente: TEST - Arquivo log definido: C:/FELIPE/py_testes/pipeline_relatorios/logs\log_atualizacao.txt
+2024-11-08 14:38:45 - Iniciando o processo de atualização de relatório.
+2024-11-08 14:38:45 - GA_PEND Iniciando atualização...
+2024-11-08 14:38:46 - GA_PEND Excel inicializado com sucesso.
+2024-11-08 14:38:46 - GA_PEND Erro ao abrir o arquivo: (-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'Não foi possível encontrar C:\\FELIPE\\py_testes\\pipeline_relatorios\\data\\start. É possível que ele tenha sido movido, renomeado ou excluído?', 'xlmain11.chm', 0, -2146827284), None)
+2024-11-08 14:41:05 - Ambiente: TEST - Arquivo log definido: C:/FELIPE/py_testes/pipeline_relatorios/logs\log_atualizacao.txt
+2024-11-08 14:41:05 - Iniciando o processo de atualização de relatório.
+2024-11-08 14:41:05 - GA_PEND Iniciando atualização...
+2024-11-08 14:41:05 - GA_PEND Excel inicializado com sucesso.
+2024-11-08 14:41:06 - GA_PEND Sucesso ao abrir o arquivo: NC_BASE_ORDENS_PENDENTES_GA.xlsx
+2024-11-08 14:41:09 - GA_PEND Iniciando atualização de dados...
+2024-11-08 14:41:20 - GA_PEND Tabela Dinâmica Tabela dinâmica3 atualizada.
+2024-11-08 14:41:20 - GA_PEND Tabela Dinâmica Tabela dinâmica7 atualizada.
+2024-11-08 14:41:21 - GA_PEND Tabela Dinâmica Tabela dinâmica4 atualizada.
+2024-11-08 14:41:21 - GA_PEND Tabela Dinâmica Tabela dinâmica1 atualizada.
+2024-11-08 14:41:21 - GA_PEND Tabela Dinâmica Tabela dinâmica5 atualizada.
+2024-11-08 14:41:21 - GA_PEND Salvando e fechando o arquivo...
+2024-11-08 14:41:21 - Erro ao atualizar relatório: '<win32com.gen_py.Microsoft Excel 16.0 Object Library._Workbook instance at 0x2056968980624>' object has no attribute '__len__'
+2024-11-08 14:41:21 - Ocorreu um erro durante o processo: '<win32com.gen_py.Microsoft Excel 16.0 Object Library._Workbook instance at 0x2056968980624>' object has no attribute '__len__'
+2024-11-08 14:43:20 - Ambiente: TEST - Arquivo log definido: C:/FELIPE/py_testes/pipeline_relatorios/logs\log_atualizacao.txt
+2024-11-08 14:43:20 - Iniciando o processo de atualização de relatório.
+2024-11-08 14:43:20 - GA_PEND Iniciando atualização...
+2024-11-08 14:43:20 - GA_PEND Excel inicializado com sucesso.
+2024-11-08 14:43:20 - GA_PEND Sucesso ao abrir o arquivo: NC_BASE_ORDENS_PENDENTES_GA.xlsx
+2024-11-08 14:43:20 - GA_PEND Iniciando atualização de dados...
+2024-11-08 14:43:30 - GA_PEND Tabela Dinâmica Tabela dinâmica3 atualizada.
+2024-11-08 14:43:30 - GA_PEND Tabela Dinâmica Tabela dinâmica7 atualizada.
+2024-11-08 14:43:30 - GA_PEND Tabela Dinâmica Tabela dinâmica4 atualizada.
+2024-11-08 14:43:30 - GA_PEND Tabela Dinâmica Tabela dinâmica1 atualizada.
+2024-11-08 14:43:30 - GA_PEND Tabela Dinâmica Tabela dinâmica5 atualizada.
+2024-11-08 14:43:30 - GA_PEND Salvando e fechando o arquivo...
+2024-11-08 14:43:30 - Erro ao atualizar relatório: '<win32com.gen_py.Microsoft Excel 16.0 Object Library._Workbook instance at 0x2726227837840>' object has no attribute '__len__'
+2024-11-08 14:43:30 - Ocorreu um erro durante o processo: '<win32com.gen_py.Microsoft Excel 16.0 Object Library._Workbook instance at 0x2726227837840>' object has no attribute '__len__'
+2024-11-08 14:45:12 - Ambiente: TEST - Arquivo log definido: C:/FELIPE/py_testes/pipeline_relatorios/logs\log_atualizacao.txt
+2024-11-08 14:45:12 - Iniciando o processo de atualização de relatório.
+2024-11-08 14:45:12 - GA_PEND Iniciando atualização...
+2024-11-08 14:45:12 - GA_PEND Excel inicializado com sucesso.
+2024-11-08 14:45:12 - GA_PEND Sucesso ao abrir o arquivo: NC_BASE_ORDENS_PENDENTES_GA.xlsx
+2024-11-08 14:45:12 - GA_PEND Iniciando atualização de dados...
+2024-11-08 14:45:22 - GA_PEND Tabela Dinâmica Tabela dinâmica3 atualizada.
+2024-11-08 14:45:22 - GA_PEND Tabela Dinâmica Tabela dinâmica7 atualizada.
+2024-11-08 14:45:22 - GA_PEND Tabela Dinâmica Tabela dinâmica4 atualizada.
+2024-11-08 14:45:22 - GA_PEND Tabela Dinâmica Tabela dinâmica1 atualizada.
+2024-11-08 14:45:22 - GA_PEND Tabela Dinâmica Tabela dinâmica5 atualizada.
+2024-11-08 14:45:22 - GA_PEND Salvando e fechando o arquivo...
+2024-11-08 14:45:23 - GA_PEND Atualização executada com sucesso!
+2024-11-08 14:45:23 - Atualização finalizada.
+2024-11-08 14:45:26 - Iniciando o processo de extrair imagem.
+2024-11-08 14:45:30 - GA_PEND Imagem exportada com sucesso para: C:/FELIPE/py_testes/pipeline_relatorios/images\NC_BASE_ORDENS_PENDENTES_GA.xlsx
+2024-11-08 14:45:31 - Extração finalizada.
+2024-11-08 14:45:34 - Iniciando o processo de mover o relatório.
+2024-11-08 14:45:34 - GA_PEND Arquivo movido e renomeado para: C:/FELIPE/py_testes/pipeline_relatorios/data/output\NC_BASE_ORDENS_PENDENTES_GA_20241108..xlsx
+2024-11-08 14:45:34 - Processo completo.
+2024-11-08 14:52:26 - Ambiente: TEST - Arquivo log definido: C:/FELIPE/py_testes/pipeline_relatorios/logs\log_atualizacao.txt
+2024-11-08 14:52:26 - Iniciando o processo de atualização de relatório.
+2024-11-08 14:52:26 - GA_PEND Iniciando atualização...
+2024-11-08 14:52:26 - GA_PEND Excel inicializado com sucesso.
+2024-11-08 14:52:27 - GA_PEND Sucesso ao abrir o arquivo: NC_BASE_ORDENS_PENDENTES_GA.xlsx
+2024-11-08 14:52:29 - GA_PEND Iniciando atualização de dados...
+2024-11-08 14:52:40 - GA_PEND Tabela Dinâmica Tabela dinâmica7 atualizada.
+2024-11-08 14:52:40 - GA_PEND Tabela Dinâmica Tabela dinâmica4 atualizada.
+2024-11-08 14:52:40 - GA_PEND Tabela Dinâmica Tabela dinâmica1 atualizada.
+2024-11-08 14:52:40 - GA_PEND Tabela Dinâmica Tabela dinâmica5 atualizada.
+2024-11-08 14:52:40 - GA_PEND Tabela Dinâmica Tabela dinâmica3 atualizada.
+2024-11-08 14:52:40 - GA_PEND Salvando e fechando o arquivo...
+2024-11-08 14:52:41 - GA_PEND Atualização executada com sucesso!
+2024-11-08 14:52:41 - Atualização finalizada.
+2024-11-08 14:52:44 - Iniciando o processo de extrair imagem.
+2024-11-08 14:52:47 - Erro ao extrair imagem do relatório: [Errno 2] No such file or directory: 'C:/FELIPE/py_testes/pipeline_relatorios/images\\GA_PEND\\.png'
+2024-11-08 14:52:47 - Ocorreu um erro durante o processo: [Errno 2] No such file or directory: 'C:/FELIPE/py_testes/pipeline_relatorios/images\\GA_PEND\\.png'
+2024-11-08 14:56:30 - Ambiente: TEST - Arquivo log definido: C:/FELIPE/py_testes/pipeline_relatorios/logs\log_atualizacao.txt
+2024-11-08 14:56:30 - Iniciando o processo de atualização de relatório.
+2024-11-08 14:56:30 - GA_PEND Iniciando atualização...
+2024-11-08 14:56:30 - GA_PEND Excel inicializado com sucesso.
+2024-11-08 14:56:30 - GA_PEND Sucesso ao abrir o arquivo: NC_BASE_ORDENS_PENDENTES_GA.xlsx
+2024-11-08 14:56:30 - GA_PEND Iniciando atualização de dados...
+2024-11-08 14:56:40 - GA_PEND Tabela Dinâmica Tabela dinâmica4 atualizada.
+2024-11-08 14:56:40 - GA_PEND Tabela Dinâmica Tabela dinâmica1 atualizada.
+2024-11-08 14:56:41 - GA_PEND Tabela Dinâmica Tabela dinâmica5 atualizada.
+2024-11-08 14:56:41 - GA_PEND Tabela Dinâmica Tabela dinâmica3 atualizada.
+2024-11-08 14:56:41 - GA_PEND Tabela Dinâmica Tabela dinâmica7 atualizada.
+2024-11-08 14:56:41 - GA_PEND Salvando e fechando o arquivo...
+2024-11-08 14:56:41 - GA_PEND Atualização executada com sucesso!
+2024-11-08 14:56:41 - Atualização finalizada.
+2024-11-08 14:56:44 - Iniciando o processo de extrair imagem.
+2024-11-08 14:56:48 - GA_PEND Imagem exportada com sucesso para: C:/FELIPE/py_testes/pipeline_relatorios/images\PEND_GA.png
+2024-11-08 14:56:49 - Extração finalizada.
+2024-11-08 14:56:52 - Iniciando o processo de mover o relatório.
+2024-11-08 14:56:52 - GA_PEND Arquivo movido e renomeado para: C:/FELIPE/py_testes/pipeline_relatorios/data/output\NC_BASE_ORDENS_PENDENTES_GA_20241108..xlsx
+2024-11-08 14:56:52 - Processo completo.
+2024-11-08 15:00:00 - Ambiente: TEST - Arquivo log definido: C:/FELIPE/py_testes/pipeline_relatorios/logs\log_atualizacao.txt
+2024-11-08 15:00:00 - Iniciando o processo de atualização de relatório.
+2024-11-08 15:00:00 - GA_PEND Iniciando atualização...
+2024-11-08 15:00:01 - GA_PEND Excel inicializado com sucesso.
+2024-11-08 15:00:01 - GA_PEND Sucesso ao abrir o arquivo: NC_BASE_ORDENS_PENDENTES_GA.xlsx
+2024-11-08 15:00:03 - GA_PEND Iniciando atualização de dados...
+2024-11-08 15:00:15 - GA_PEND Tabela Dinâmica Tabela dinâmica1 atualizada.
+2024-11-08 15:00:15 - GA_PEND Tabela Dinâmica Tabela dinâmica5 atualizada.
+2024-11-08 15:00:15 - GA_PEND Tabela Dinâmica Tabela dinâmica3 atualizada.
+2024-11-08 15:00:15 - GA_PEND Tabela Dinâmica Tabela dinâmica7 atualizada.
+2024-11-08 15:00:15 - GA_PEND Tabela Dinâmica Tabela dinâmica4 atualizada.
+2024-11-08 15:00:15 - GA_PEND Salvando e fechando o arquivo...
+2024-11-08 15:00:15 - GA_PEND Atualização executada com sucesso!
+2024-11-08 15:00:15 - Atualização finalizada.
+2024-11-08 15:00:18 - Iniciando o processo de extrair imagem.
+2024-11-08 15:00:23 - GA_PEND Imagem exportada com sucesso para: C:/FELIPE/py_testes/pipeline_relatorios/images\PEND_GA.png
+2024-11-08 15:00:23 - Extração finalizada.
+2024-11-08 15:00:26 - Iniciando o processo de mover o relatório.
+2024-11-08 15:00:26 - GA_PEND Arquivo movido e renomeado para: C:/FELIPE/py_testes/pipeline_relatorios/data/output\NC_BASE_ORDENS_PENDENTES_GA_20241108..xlsx
+2024-11-08 15:00:26 - Processo completo.
+2024-11-08 15:01:07 - Ambiente: TEST - Arquivo log definido: C:/FELIPE/py_testes/pipeline_relatorios/logs\log_atualizacao.txt
+2024-11-08 15:01:07 - Iniciando o processo de atualização de relatório.
+2024-11-08 15:01:07 - GA_PEND Iniciando atualização...
+2024-11-08 15:01:08 - GA_PEND Excel inicializado com sucesso.
+2024-11-08 15:01:08 - GA_PEND Sucesso ao abrir o arquivo: NC_BASE_ORDENS_PENDENTES_GA.xlsx
+2024-11-08 15:01:11 - GA_PEND Iniciando atualização de dados...
+2024-11-08 15:01:22 - GA_PEND Tabela Dinâmica Tabela dinâmica5 atualizada.
+2024-11-08 15:01:22 - GA_PEND Tabela Dinâmica Tabela dinâmica3 atualizada.
+2024-11-08 15:01:22 - GA_PEND Tabela Dinâmica Tabela dinâmica7 atualizada.
+2024-11-08 15:01:22 - GA_PEND Tabela Dinâmica Tabela dinâmica4 atualizada.
+2024-11-08 15:01:22 - GA_PEND Tabela Dinâmica Tabela dinâmica1 atualizada.
+2024-11-08 15:01:22 - GA_PEND Salvando e fechando o arquivo...
+2024-11-08 15:01:23 - GA_PEND Atualização executada com sucesso!
+2024-11-08 15:01:23 - Atualização finalizada.
+2024-11-08 15:01:26 - Iniciando o processo de extrair imagem.
+2024-11-08 15:01:31 - GA_PEND Imagem exportada com sucesso para: C:/FELIPE/py_testes/pipeline_relatorios/images\PEND_GA.png
+2024-11-08 15:01:31 - Extração finalizada.
+2024-11-08 15:01:34 - Iniciando o processo de mover o relatório.
+2024-11-08 15:01:34 - GA_PEND Arquivo movido e renomeado para: C:/FELIPE/py_testes/pipeline_relatorios/data/output\NC_BASE_ORDENS_PENDENTES_GA_20241108..xlsx
+2024-11-08 15:01:34 - Processo completo.
+2024-11-08 15:06:24 - Ambiente: TEST - Arquivo log definido: C:/FELIPE/py_testes/pipeline_relatorios/logs\log_atualizacao.txt
+2024-11-08 15:06:24 - Iniciando o processo de atualização de relatório.
+2024-11-08 15:06:24 - GA_PEND Iniciando atualização...
+2024-11-08 15:06:25 - GA_PEND Excel inicializado com sucesso.
+2024-11-08 15:06:26 - GA_PEND Sucesso ao abrir o arquivo: NC_BASE_ORDENS_PENDENTES_GA.xlsx
+2024-11-08 15:06:28 - GA_PEND Iniciando atualização de dados...
+2024-11-08 15:06:39 - GA_PEND Tabela Dinâmica Tabela dinâmica3 atualizada.
+2024-11-08 15:06:39 - GA_PEND Tabela Dinâmica Tabela dinâmica7 atualizada.
+2024-11-08 15:06:39 - GA_PEND Tabela Dinâmica Tabela dinâmica4 atualizada.
+2024-11-08 15:06:39 - GA_PEND Tabela Dinâmica Tabela dinâmica1 atualizada.
+2024-11-08 15:06:39 - GA_PEND Tabela Dinâmica Tabela dinâmica5 atualizada.
+2024-11-08 15:06:39 - GA_PEND Salvando e fechando o arquivo...
+2024-11-08 15:06:40 - GA_PEND Atualização executada com sucesso!
+2024-11-08 15:06:40 - Atualização finalizada.
+2024-11-08 15:06:43 - Iniciando o processo de extrair imagem.
+2024-11-08 15:06:47 - GA_PEND Imagem exportada com sucesso para: C:/FELIPE/py_testes/pipeline_relatorios/images\PEND_GA.png
+2024-11-08 15:06:48 - Extração finalizada.
+2024-11-08 15:06:51 - Iniciando o processo de mover o relatório.
+2024-11-08 15:06:51 - GA_PEND Arquivo movido e renomeado para: C:/FELIPE/py_testes/pipeline_relatorios/data/output\NC_BASE_ORDENS_PENDENTES_GA_20241108..xlsx
+2024-11-08 15:06:51 - Processo completo.
+2024-11-08 15:12:13 - Ambiente: TEST - Arquivo log definido: C:/FELIPE/py_testes/pipeline_relatorios/logs\log_atualizacao.txt
+2024-11-08 15:12:13 - Iniciando o processo de atualização de relatório.
+2024-11-08 15:12:13 - GA_PEND Iniciando atualização...
+2024-11-08 15:12:14 - GA_PEND Excel inicializado com sucesso.
+2024-11-08 15:12:15 - GA_PEND Sucesso ao abrir o arquivo: NC_BASE_ORDENS_PENDENTES_GA.xlsx
+2024-11-08 15:12:17 - GA_PEND Iniciando atualização de dados...
+2024-11-08 15:12:28 - GA_PEND Tabela Dinâmica Tabela dinâmica7 atualizada.
+2024-11-08 15:12:28 - GA_PEND Tabela Dinâmica Tabela dinâmica4 atualizada.
+2024-11-08 15:12:28 - GA_PEND Tabela Dinâmica Tabela dinâmica1 atualizada.
+2024-11-08 15:12:28 - GA_PEND Tabela Dinâmica Tabela dinâmica5 atualizada.
+2024-11-08 15:12:28 - GA_PEND Tabela Dinâmica Tabela dinâmica3 atualizada.
+2024-11-08 15:12:28 - GA_PEND Salvando e fechando o arquivo...
+2024-11-08 15:12:29 - GA_PEND Atualização executada com sucesso!
+2024-11-08 15:12:29 - Atualização finalizada.
+2024-11-08 15:12:32 - Iniciando o processo de extrair imagem.
+2024-11-08 15:12:36 - GA_PEND Imagem exportada com sucesso para: C:/FELIPE/py_testes/pipeline_relatorios/images\PEND_GA.png
+2024-11-08 15:12:36 - Extração finalizada.
+2024-11-08 15:12:39 - Iniciando o processo de mover o relatório.
+2024-11-08 15:12:40 - GA_PEND Arquivo movido e renomeado para: C:/FELIPE/py_testes/pipeline_relatorios/data/output\NC_BASE_ORDENS_PENDENTES_GA_20241108.xlsx
+2024-11-08 15:12:40 - Processo completo.
+2024-11-08 15:19:47 - Ambiente: TEST - Arquivo log definido: C:/FELIPE/py_testes/pipeline_relatorios/logs\log_atualizacao.txt
+2024-11-08 15:19:47 - Iniciando o processo de atualização de relatório.
+2024-11-08 15:19:47 - GA_PEND Iniciando atualização...
+2024-11-08 15:19:47 - GA_PEND Excel inicializado com sucesso.
+2024-11-08 15:19:48 - GA_PEND Sucesso ao abrir o arquivo: NC_BASE_ORDENS_PENDENTES_GA.xlsx
+2024-11-08 15:19:50 - GA_PEND Iniciando atualização de dados...
+2024-11-08 15:20:01 - GA_PEND Tabela Dinâmica Tabela dinâmica4 atualizada.
+2024-11-08 15:20:01 - GA_PEND Tabela Dinâmica Tabela dinâmica1 atualizada.
+2024-11-08 15:20:02 - GA_PEND Tabela Dinâmica Tabela dinâmica5 atualizada.
+2024-11-08 15:20:02 - GA_PEND Tabela Dinâmica Tabela dinâmica3 atualizada.
+2024-11-08 15:20:02 - GA_PEND Tabela Dinâmica Tabela dinâmica7 atualizada.
+2024-11-08 15:20:02 - GA_PEND Salvando e fechando o arquivo...
+2024-11-08 15:20:02 - GA_PEND Atualização executada com sucesso!
+2024-11-08 15:20:02 - Atualização finalizada.
+2024-11-08 15:20:05 - Iniciando o processo de extrair imagem.
+2024-11-08 15:20:10 - GA_PEND Imagem exportada com sucesso para: C:/FELIPE/py_testes/pipeline_relatorios/images\PEND_GA.png
+2024-11-08 15:20:10 - Extração finalizada.
+2024-11-08 15:20:13 - Iniciando o processo de mover o relatório.
+2024-11-08 15:20:13 - GA_PEND Arquivo movido e renomeado para: C:/FELIPE/py_testes/pipeline_relatorios/data/output\NC_BASE_ORDENS_PENDENTES_GA_20241108.xlsx
+2024-11-08 15:20:13 - Processo completo.
+2024-11-08 15:21:57 - Ambiente: PROD - Arquivo log definido: C:/FELIPE/py_testes/pipeline_relatorios/logs\log_atualizacao.txt
+2024-11-08 15:21:57 - Iniciando o processo de atualização de relatório.
+2024-11-08 15:21:57 - GA_PEND Iniciando atualização...
+2024-11-08 15:21:57 - GA_PEND Excel inicializado com sucesso.
+2024-11-08 15:21:58 - GA_PEND Sucesso ao abrir o arquivo: NC_BASE_ORDENS_PENDENTES_GA.xlsx
+2024-11-08 15:22:00 - GA_PEND Iniciando atualização de dados...
+2024-11-08 15:22:11 - GA_PEND Tabela Dinâmica Tabela dinâmica1 atualizada.
+2024-11-08 15:22:11 - GA_PEND Tabela Dinâmica Tabela dinâmica5 atualizada.
+2024-11-08 15:22:12 - GA_PEND Tabela Dinâmica Tabela dinâmica3 atualizada.
+2024-11-08 15:22:12 - GA_PEND Tabela Dinâmica Tabela dinâmica7 atualizada.
+2024-11-08 15:22:12 - GA_PEND Tabela Dinâmica Tabela dinâmica4 atualizada.
+2024-11-08 15:22:12 - GA_PEND Salvando e fechando o arquivo...
+2024-11-08 15:22:12 - GA_PEND Atualização executada com sucesso!
+2024-11-08 15:22:12 - Atualização finalizada.
+2024-11-08 15:22:15 - Iniciando o processo de extrair imagem.
+2024-11-08 15:22:19 - GA_PEND Imagem exportada com sucesso para: C:/FELIPE/py_testes/pipeline_relatorios/images\PEND_GA.png
+2024-11-08 15:22:20 - Extração finalizada.
+2024-11-08 15:22:23 - Iniciando o processo de mover o relatório.
+2024-11-08 15:22:23 - GA_PEND Arquivo movido e renomeado para: C:/FELIPE/py_testes/pipeline_relatorios/data/output\NC_BASE_ORDENS_PENDENTES_GA_20241108.xlsx
+2024-11-08 15:22:23 - Processo completo.

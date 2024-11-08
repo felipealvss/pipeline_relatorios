@@ -7,7 +7,7 @@ import win32com.client as win32
 def atualiza_relatorio(assunto, name_excel_file, origin_excel_file, log_file):
 
     # Configurações do arquivo Excel
-    excel_file = os.path.join(name_excel_file, origin_excel_file)
+    excel_file = os.path.join(origin_excel_file, name_excel_file)
 
     # Configuração do log
     logging.basicConfig(filename=log_file, level=logging.INFO, 
@@ -28,7 +28,6 @@ def atualiza_relatorio(assunto, name_excel_file, origin_excel_file, log_file):
         log_event(f"{assunto} Excel inicializado com sucesso.")
     except Exception as e:
         log_event(f"{assunto} Falha ao inicializar o Excel: {str(e)}")
-        print(f"{assunto} Falha ao inicializar o Excel: {str(e)}")
         exit()
 
     if not os.path.exists(excel_file):
@@ -38,10 +37,9 @@ def atualiza_relatorio(assunto, name_excel_file, origin_excel_file, log_file):
     # Tenta abrir o arquivo Excel
     try:
         workbook = excel.Workbooks.Open(excel_file)
-        log_event(f"{assunto} Sucesso ao abrir o arquivo: NC_BASE_ORDENS_PENDENTES_GA.xlsx")
+        log_event(f"{assunto} Sucesso ao abrir o arquivo: {name_excel_file}")
     except Exception as e:
         log_event(f"{assunto} Erro ao abrir o arquivo: {str(e)}")
-        print(f"{assunto} Erro ao abrir o arquivo: {str(e)}")
         excel.Quit()
         exit()
 
@@ -77,7 +75,7 @@ def atualiza_relatorio(assunto, name_excel_file, origin_excel_file, log_file):
     workbook.Save()
 
     # Fechar o workbook
-    if workbook:
+    if workbook is not None:
         workbook.Close(SaveChanges=True)
         del workbook
 
@@ -85,9 +83,7 @@ def atualiza_relatorio(assunto, name_excel_file, origin_excel_file, log_file):
     if excel:
         excel.Quit()
         # Libera objetos COM de forma explícita
-        #win32.Dispatch("Excel.Application")
         gc.collect()  # Força a coleta de lixo para liberar objetos COM não utilizados
 
     # Finalização
     log_event(f"{assunto} Atualização executada com sucesso!")
-    print(f"{assunto} Atualização executada com sucesso!")
