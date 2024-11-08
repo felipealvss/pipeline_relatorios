@@ -18,7 +18,8 @@ env/
 .env/
 
 # Arquivos e configurações de teste
-tests/
+src/config/tests/config.py
+log_atualizacao.txt
 
 # Arquivos de configuração de IDE
 .vscode/
