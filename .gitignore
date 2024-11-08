@@ -1,0 +1,39 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.eggs
+dist/
+build/
+*.egg-info/
+pip-wheel-metadata/
+
+# Ambiente virtual (recomendado para evitar o versionamento de dependências)
+venv/
+env/
+.venv/
+.env/
+
+# Arquivos de configuração de IDE
+.vscode/
+.idea/
+
+# Arquivos de testes temporários
+*.bak
+*.swp
+
+# Arquivos de cache do pytest
+.cache/
+
+# Arquivos de configuração do Pytest
+*.pytest_cache/
+
+# Arquivos gerados durante a execução do pipeline
+dump/
+
+# Arquivos Excel gerados ou temporários
+*.xls
+*.xlsx

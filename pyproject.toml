@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pipeline-relatorios"
+version = "0.1.0"
+description = "Estruturação de pipeline de processos administrativos com planilhas Excel"
+authors = ["Felipe Alves <felipealvss.95@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+logging = "^0.4.9.6"
+pywin32 = "^308"
+xlwings = "^0.33.3"
+pillow = "^11.0.0"
+pytz = "^2024.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
