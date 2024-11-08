@@ -19,14 +19,20 @@ pipeline_relatorios/
 │
 ├── src/                 # Código-fonte do pipeline
 │   ├── config/          # Configurações do projeto
+│   │   ├── config.py    # Arquivo de configuração principal
+│   │   └── tests/       # Testes de configuração
+│   ├── controller/      # Funções de controle ou execução
+│   │   └── executor.py  # Funções para execução do pipeline
 │   ├── functions/       # Funções específicas para o processamento de dados
+│   │   ├── atualiza_relatorio.py  # Atualização de relatórios
+│   │   ├── extrai_imagem_relatorio.py  # Extração de imagens de relatórios
+│   │   └── move_relatorio.py  # Funções para mover relatórios
 │   └── main.py          # Script principal que executa o pipeline
 │
-├── tests/               # Testes automatizados
-│   └── config/          # Testes de configuração
-│   └── main.py     # Testes do script principal
-│
-├── pyproject.toml       # Arquivo de configuração do projeto Python
+├── pyproject.toml       # Arquivo de configuração do projeto Python (Poetry)
+├── poetry.lock          # Arquivo de bloqueio das dependências (gerado pelo Poetry)
+├── requirements.txt     # Arquivo de requisitos do projeto (geralmente para pip)
+├── .gitignore           # Arquivo de exclusão do Git
 └── README.md            # Este arquivo
 ```
 
@@ -95,10 +101,6 @@ Com o ambiente configurado, você pode executar o pipeline utilizando o script p
 ```bash
 poetry run python -m src.main
 ```
-
-## Testes
-
-Os testes estão localizados no diretório `tests/`, e podem ser ajustados conforme necessário.
 
 ## Estrutura do Código
 

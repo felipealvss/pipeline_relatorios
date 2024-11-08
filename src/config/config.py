@@ -12,9 +12,9 @@ FILE_CONFIG = {
 # Diretórios de destino e origem
 DIRECTORIES = {
     "dir_log_file": "C:/FELIPE/py_testes/pipeline_relatorios/logs",
-    "dir_origem_rel": "",
-    "dir_final_rel": "",
-    "dir_final_img": ""
+    "dir_origem_rel": "C:/FELIPE/py_testes/pipeline_relatorios/data/start",
+    "dir_final_rel": "C:/FELIPE/py_testes/pipeline_relatorios/data/output",
+    "dir_final_img": "C:/FELIPE/py_testes/pipeline_relatorios/images"
 }
 
 WORKSHEET_TAB = {
