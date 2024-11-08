@@ -1,7 +1,7 @@
 import os
 import logging
-#import src.config.config as config # Configurações de produção
-import src.config.tests.config as config # Configurações de teste
+import src.config.config as config # Configurações de produção
+#import src.config.tests.config as config # Configurações de teste
 from src.controller.executor import executar_processo_relatorio
 
 # Arquivo log
