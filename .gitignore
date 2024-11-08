@@ -19,7 +19,7 @@ env/
 
 # Arquivos e configurações de teste
 src/config/tests/config.py
-log_atualizacao.txt
+logs/log_atualizacao.txt
 
 # Arquivos de configuração de IDE
 .vscode/
