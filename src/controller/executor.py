@@ -1,7 +1,8 @@
 import os
 import time
 import logging
-import src.config.config as config
+#import src.config.config as config # Configurações de produção
+import src.config.tests.config as config # Configurações de teste
 from src.functions.atualiza_relatorio import atualiza_relatorio
 from src.functions.move_relatorio import move_relatorio
 from src.functions.extrai_imagem_relatorio import extrai_imagem_relatorio
