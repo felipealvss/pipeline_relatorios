@@ -1,11 +1,13 @@
 import os
 import time
 import logging
+from datetime import datetime
 #import src.config.config as config # Configurações de produção
 import src.config.tests.config as config # Configurações de teste
-from src.functions.atualiza_relatorio import atualiza_relatorio
-from src.functions.move_relatorio import move_relatorio
-from src.functions.extrai_imagem_relatorio import extrai_imagem_relatorio
+import src.controller.python.pendente_ga as pend_ga
+import src.controller.python.pendente_gb as pend_gb
+import src.controller.python.pendente_gb_rede_roub as pend_gb_rede_roub
+import src.controller.python.pendente_gd_gagb as pend_gd_gagb
 
 # Arquivo log
 log_file = os.path.join(
@@ -24,61 +26,54 @@ def log_event(message):
 
 def executar_processo_relatorio(log_file):
     try:
+        momento_ini = datetime.now()
+        print(f'Momento início processo: {momento_ini}\n')
+
+        log_event("Iniciando o processo de atualização de dados do KNIME.")
+        pend_gb.knime_atualizar_pend_gb(log_file)
+        time.sleep(3)
+        pend_gb.knime_atualizar_pend_gb_rede_roubada(log_file)
+
+        log_event("atualização de dados do KNIME finalizada.")
+        time.sleep(3)
+
         log_event("Iniciando o processo de atualização de relatório.")
-        atualizar_relatorio(log_file)
+        pend_ga.atualizar_relatorio(log_file)
+        time.sleep(3)
+        pend_gb.atualizar_relatorio(log_file)
+        time.sleep(3)
+        pend_gb_rede_roub.atualizar_relatorio(log_file)
+        time.sleep(3)
+        pend_gd_gagb.atualizar_relatorio(log_file)
+
         log_event("Atualização finalizada.")
         time.sleep(3)
 
         log_event("Iniciando o processo de extrair imagem.")
-        extrair_imagem_relatorio(log_file)
+        pend_ga.extrair_imagem_relatorio(log_file)
+        time.sleep(3)
+        pend_gb.extrair_imagem_relatorio(log_file)
+        time.sleep(3)
+        pend_gd_gagb.extrair_imagem_relatorio(log_file)
+
         log_event("Extração finalizada.")
         time.sleep(3)
 
         log_event("Iniciando o processo de mover o relatório.")
-        mover_relatorio(log_file)
+        pend_ga.mover_relatorio(log_file)
+        time.sleep(3)
+        pend_gb.mover_relatorio(log_file)
+        time.sleep(3)
+        pend_gb_rede_roub.mover_relatorio(log_file)
+        time.sleep(3)
+        pend_gd_gagb.mover_relatorio(log_file)
+
+        momento_fim = datetime.now()
+        tempo_total = momento_fim - momento_ini
+        print(f'Momento fim processo: {momento_fim}')
+        print(f'Tempo total processo: {tempo_total}\n')
 
         log_event("Processo completo.")
     except Exception as e:
         log_event(f"Ocorreu um erro durante o processo: {e}")
-        raise
-
-def atualizar_relatorio(log_file):
-    try:
-        atualiza_relatorio(
-            assunto=config.LOG_CONTEXT_CONFIG['pendente_ga'],
-            origin_excel_file=config.DIRECTORIES['dir_origem_rel'],
-            name_excel_file=config.FILE_CONFIG['arq_rel_pendentes_ga'],
-            log_file=log_file
-        )
-    except Exception as e:
-        log_event(f"Erro ao atualizar relatório: {e}")
-        raise
-
-def extrair_imagem_relatorio(log_file):
-    try:
-        extrai_imagem_relatorio(
-            assunto=config.LOG_CONTEXT_CONFIG['pendente_ga'],
-            caminho_arquivo_excel=config.DIRECTORIES['dir_origem_rel'],
-            nome_arquivo_excel=config.FILE_CONFIG['arq_rel_pendentes_ga'],
-            caminho_arquivo_imagem=config.DIRECTORIES['dir_final_img'],
-            nome_arquivo_imagem=config.FILE_CONFIG['arq_img_pendentes_ga'],
-            aba=config.WORKSHEET_TAB['tab_pendentes_ga'],
-            intervalo=config.WORKSHEET_RANGE['range_pendentes_ga'],
-            log_file=log_file
-        )
-    except Exception as e:
-        log_event(f"Erro ao extrair imagem do relatório: {e}")
-        raise
-
-def mover_relatorio(log_file):
-    try:
-        move_relatorio(
-            assunto=config.LOG_CONTEXT_CONFIG['pendente_ga'],
-            origin_excel_file=config.DIRECTORIES['dir_origem_rel'],
-            name_excel_file=config.FILE_CONFIG['arq_rel_pendentes_ga'],
-            dest_dir=config.DIRECTORIES['dir_final_rel'],
-            log_file=log_file
-        )
-    except Exception as e:
-        log_event(f"Erro ao mover relatório: {e}")
         raise

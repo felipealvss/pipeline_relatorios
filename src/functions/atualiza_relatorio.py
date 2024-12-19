@@ -55,12 +55,14 @@ def atualiza_relatorio(assunto, name_excel_file, origin_excel_file, log_file):
 
     # Atualizando as Tabelas Dinâmicas (e os gráficos associados)
     for sheet in workbook.Sheets:
+        log_event(f"{assunto} Verificando a planilha: {sheet.Name}")
         for pivot_table in sheet.PivotTables():
             try:
                 pivot_table.RefreshTable()  # Atualiza cada Tabela Dinâmica
                 log_event(f"{assunto} Tabela Dinâmica {pivot_table.Name} atualizada.")
             except Exception as e:
                 log_event(f"{assunto} Erro ao atualizar a Tabela Dinâmica {pivot_table.Name}: {str(e)}")
+                time.sleep(5)
 
     # Aguardar até que o Excel termine de atualizar os dados (dinâmico)
     while excel.CalculationState == 1:  # Aguardando cálculo (1 == xlCalculating)
