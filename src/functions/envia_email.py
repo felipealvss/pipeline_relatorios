@@ -6,6 +6,8 @@ from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 import os
 import src.emails.config.config as EmailConfig  # Importando as constantes
+import src.emails.assinatura as assinatura
+import src.emails.estrutura_email as estrutura_email
 
 def envia_email(destinatario, assunto, corpo, anexo_path, imagem_path):
     """
